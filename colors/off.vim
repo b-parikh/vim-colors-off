@@ -161,6 +161,7 @@ call s:h("DiffDelete",    {"fg": s:red})
 call s:h("DiffChange",    {"fg": s:dark_yellow})
 call s:h("DiffText",      {"fg": s:dark_blue})
 call s:h("SignColumn",    {"fg": s:light_green})
+call s:h("String",        {"fg": s:purple})
 
 if has("gui_running")
   call s:h("SpellBad",    {"gui": "underline", "sp": s:red})
